@@ -2,7 +2,7 @@
 
 Project Name: Hotel Management System
 
-Project Description: Development of a web-based hotel management system to streamline booking, room management, and  
+Project Description: Development of a web-based hotel management system to streamline booking, room management, and  secure payment
 
 
 Your Role: Lead Developer/Project Manager
