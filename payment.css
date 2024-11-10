@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(132, 132, 212);
+}
+
+/* Payment Container Styling */
+.payment-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.payment-container:hover {
+    transform: scale(1.02);
+}
+
+/* Title Styling */
+.payment-container h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 10px;
+}
+
+/* Paragraphs Styling */
+.payment-container p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.payment-container p strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input Button Styling */
+.payment-container form input[type="submit"] {
+    background-color: #00aaff;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.payment-container form input[type="submit"]:hover {
+    background-color: #0088cc;
+}
+
+/* Link Styling */
+.payment-container a {
+    color: #00aaff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+.payment-container a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 600px) {
+    .payment-container {
+        padding: 20px;
+    }
+
+    .payment-container h2 {
+        font-size: 1.5em;
+    }
+
+    .payment-container p {
+        font-size: 1em;
+    }
+
+    .payment-container form input[type="submit"] {
+        font-size: 1em;
+        padding: 8px 20px;
+    }
+}
